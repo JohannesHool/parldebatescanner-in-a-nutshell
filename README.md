@@ -1,6 +1,6 @@
 # ParlDebateScanner in a Nutshell
 
-This repository contains some of the logic of [parldebatescanner.org](parldebatescanner.org). Please keep in mind that for simplicity the provided code does not make use of advanced design patterns and hardware optimization. For a transition to production (as done for example on parldebatescanner.org) appropriate adjustments need to be made. The ParlDebateScenner uses the core ideas from the Notebooks 00 and 03, together with some bells and whistles and a Flask backend to host the search.
+This repository contains some of the logic of [parldebatescanner.org](https://parldebatescanner.org/). Please keep in mind that for simplicity the provided code does not make use of advanced design patterns and hardware optimization. For a transition to production (as done for example on parldebatescanner.org) appropriate adjustments need to be made. The ParlDebateScenner uses the core ideas from the Notebooks 00 and 03, together with some bells and whistles and a Flask backend to host the search.
 
 ## Installation Instructions
 - If you want to try out text embeddings and vector search using Huggingface models without the use of a database, just install the libraries specified in the Pipfile using [pipenv](https://pypi.org/project/pipenv/) and run the notebooks 00 and 01 in order.
