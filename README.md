@@ -1,3 +1,7 @@
+> 📢 **ParlDebateScanner** was a personal project by Johannes Hool designed to make the protocols of Swiss parliamentary debates on [Curia Vista](https://www.parlament.ch/de/search-affairs-advanced) searchable using open-source machine learning models. Although the website is no longer live, this repository contains key components and core mechanics that powered the project. If you have any questions about the website or the code, feel free to reach out to me.
+
+![Alt Text](data/assets/pds_1.png)
+
 # ParlDebateScanner in a Nutshell
 
 This repository contains some of the logic of [parldebatescanner.org](https://parldebatescanner.org/). Please keep in mind that for simplicity the provided code does not make use of advanced design patterns and hardware optimization. For a transition to production (as done for example on parldebatescanner.org) appropriate adjustments need to be made. The ParlDebateScenner uses the core ideas from the Notebooks 00 and 03, together with some bells and whistles and a Flask backend to host the search.
